@@ -7,11 +7,11 @@
         for (int i = 0; i < nums.Length; i++)
         {
             int diff = target - nums[i];
-            if (prevMap.ContainsKey(prevMap[diff]))
+            if (prevMap.ContainsKey(diff))
             {
-                int[] newInt = new int[] { prevMap[diff], i };
-                return newInt;
-            } else
+                return new int[] { prevMap[diff], i };
+            }
+            else
             {
                 prevMap[nums[i]] = i;
             }
@@ -26,12 +26,17 @@ class Program
     {
         int[] testCaseOne = { 2, 7, 11, 15 };
         int[] testCaseTwo = { 3, 2, 4 };
-        int[] testCaseThree = { 3, 3};
-
+        int[] testCaseThree = { 3, 3 };
 
         Solution solution = new Solution();
-        Console.WriteLine(solution.TwoSum(testCaseOne, 9));
-        Console.WriteLine(solution.TwoSum(testCaseTwo, 4));
-        Console.WriteLine(solution.TwoSum(testCaseThree, 6));
+        int[] resultOne = solution.TwoSum(testCaseOne, 9);
+        int[] resultTwo = solution.TwoSum(testCaseTwo, 6);
+        int[] resultThree = solution.TwoSum(testCaseThree, 6);
+
+        Console.WriteLine(string.Join(", ", resultOne));
+        Console.WriteLine(string.Join(", ", resultTwo));
+        Console.WriteLine(string.Join(", ", resultThree));
     }
+
+
 }

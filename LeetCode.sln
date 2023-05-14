@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicates", "ContainsDuplicates\ContainsDuplicates.csproj", "{A91F0328-81BD-40A5-85A4-27CFA3CA3905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainsDuplicates", "ContainsDuplicates\ContainsDuplicates.csproj", "{A91F0328-81BD-40A5-85A4-27CFA3CA3905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{7BEAEAC2-F724-440E-84BD-E419E4C3407D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "ReverseString\ReverseString.csproj", "{7BEAEAC2-F724-440E-84BD-E419E4C3407D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsAnagram", "IsAnagram\IsAnagram.csproj", "{DB6B6711-0B57-4BBC-8BC5-4AFB1336BA9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsAnagram", "IsAnagram\IsAnagram.csproj", "{DB6B6711-0B57-4BBC-8BC5-4AFB1336BA9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{E785E2BD-308B-46A8-BEA5-C5DE2107FCE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{E785E2BD-308B-46A8-BEA5-C5DE2107FCE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aTemplate", "Template\aTemplate.csproj", "{A5BD94C2-4F2F-4242-B76C-D2EAF7013DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aTemplate", "Template\aTemplate.csproj", "{A5BD94C2-4F2F-4242-B76C-D2EAF7013DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenationOfArray", "ConcatenationOfArray\ConcatenationOfArray.csproj", "{D4EC584B-68B3-4A84-8E03-16CF9E04BA7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceWithGreatestElement", "ReplaceWithGreatestElement\ReplaceWithGreatestElement.csproj", "{42F0EF10-D490-44A4-9C32-0B249FCC0758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsSubsequence", "IsSubsequence\IsSubsequence.csproj", "{85696550-6047-48E7-9576-5512EA6BCF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfLastWord", "LengthOfLastWord\LengthOfLastWord.csproj", "{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{A5BD94C2-4F2F-4242-B76C-D2EAF7013DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5BD94C2-4F2F-4242-B76C-D2EAF7013DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5BD94C2-4F2F-4242-B76C-D2EAF7013DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EC584B-68B3-4A84-8E03-16CF9E04BA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EC584B-68B3-4A84-8E03-16CF9E04BA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EC584B-68B3-4A84-8E03-16CF9E04BA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EC584B-68B3-4A84-8E03-16CF9E04BA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F0EF10-D490-44A4-9C32-0B249FCC0758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F0EF10-D490-44A4-9C32-0B249FCC0758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F0EF10-D490-44A4-9C32-0B249FCC0758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F0EF10-D490-44A4-9C32-0B249FCC0758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85696550-6047-48E7-9576-5512EA6BCF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85696550-6047-48E7-9576-5512EA6BCF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85696550-6047-48E7-9576-5512EA6BCF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85696550-6047-48E7-9576-5512EA6BCF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
