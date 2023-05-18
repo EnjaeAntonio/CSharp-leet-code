@@ -3,10 +3,9 @@
     public Solution() { }
     public int LengthOfLastWord(string s)
     {
-            s = s.TrimEnd();
-            string[] splitString = s.Split(' ');
-            return splitString[splitString.Length - 1].Length;
-
+        s = s.TrimEnd();
+        string[] splitString = s.Split(' ');
+        return splitString[splitString.Length - 1].Length;
     }
 }
 

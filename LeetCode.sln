@@ -13,13 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aTemplate", "Template\aTemplate.csproj", "{A5BD94C2-4F2F-4242-B76C-D2EAF7013DB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenationOfArray", "ConcatenationOfArray\ConcatenationOfArray.csproj", "{D4EC584B-68B3-4A84-8E03-16CF9E04BA7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcatenationOfArray", "ConcatenationOfArray\ConcatenationOfArray.csproj", "{D4EC584B-68B3-4A84-8E03-16CF9E04BA7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceWithGreatestElement", "ReplaceWithGreatestElement\ReplaceWithGreatestElement.csproj", "{42F0EF10-D490-44A4-9C32-0B249FCC0758}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceWithGreatestElement", "ReplaceWithGreatestElement\ReplaceWithGreatestElement.csproj", "{42F0EF10-D490-44A4-9C32-0B249FCC0758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsSubsequence", "IsSubsequence\IsSubsequence.csproj", "{85696550-6047-48E7-9576-5512EA6BCF73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsSubsequence", "IsSubsequence\IsSubsequence.csproj", "{85696550-6047-48E7-9576-5512EA6BCF73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfLastWord", "LengthOfLastWord\LengthOfLastWord.csproj", "{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LengthOfLastWord", "LengthOfLastWord\LengthOfLastWord.csproj", "{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongetCommonPrefix", "LongetCommonPrefix\LongetCommonPrefix.csproj", "{B3AD6DE6-B8CC-40B0-8EB0-F7C23D562F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveElement", "RemoveElement\RemoveElement.csproj", "{FEA3D21F-367D-466A-B97C-04EDF215BC86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanPlaceFlowers", "CanPlaceFlowers\CanPlaceFlowers.csproj", "{F2B64E95-4417-4D32-B481-5CC43E487766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueEmailAddress", "UniqueEmailAddress\UniqueEmailAddress.csproj", "{161AFEBF-C6AD-477D-8E2E-4C2C912E526B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +71,22 @@ Global
 		{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13E4115A-0D19-4A14-9A3D-CCC923F9B0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3AD6DE6-B8CC-40B0-8EB0-F7C23D562F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AD6DE6-B8CC-40B0-8EB0-F7C23D562F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AD6DE6-B8CC-40B0-8EB0-F7C23D562F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AD6DE6-B8CC-40B0-8EB0-F7C23D562F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA3D21F-367D-466A-B97C-04EDF215BC86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA3D21F-367D-466A-B97C-04EDF215BC86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA3D21F-367D-466A-B97C-04EDF215BC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA3D21F-367D-466A-B97C-04EDF215BC86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B64E95-4417-4D32-B481-5CC43E487766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B64E95-4417-4D32-B481-5CC43E487766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B64E95-4417-4D32-B481-5CC43E487766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B64E95-4417-4D32-B481-5CC43E487766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161AFEBF-C6AD-477D-8E2E-4C2C912E526B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161AFEBF-C6AD-477D-8E2E-4C2C912E526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161AFEBF-C6AD-477D-8E2E-4C2C912E526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161AFEBF-C6AD-477D-8E2E-4C2C912E526B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
